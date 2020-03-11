@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import BpmnXmlParser from '../../../../src/component/parser/xml/BpmnXmlParser';
+import BpmnXmlParser from '../../../../../src/component/parser/xml/BpmnXmlParser';
 
 function verifyProperties(object: any, propertiesToHave: string[], propertiesNotToHave: string[]): void {
   expect(object).to.be.a('object');

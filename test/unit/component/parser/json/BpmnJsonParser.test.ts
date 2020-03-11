@@ -1,6 +1,6 @@
 import { expect } from 'chai';
-import BpmnJsonParser from '../../../../src/component/parser/json/BpmnJsonParser';
-import { ShapeBpmnElementKind } from '../../../../src/model/bpmn/shape/ShapeBpmnElementKind';
+import BpmnJsonParser from '../../../../../src/component/parser/json/BpmnJsonParser';
+import { ShapeBpmnElementKind } from '../../../../../src/model/bpmn/shape/ShapeBpmnElementKind';
 
 describe('parse bpmn as json', () => {
   describe('start event', () => {
